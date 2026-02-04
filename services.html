@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html dir="ltr">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Links Of CSS File -->
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/flaticon_segura.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/images/favicon.ico">
+
+        <!-- Title -->
+        <title>Fourth Dimension International</title>
+
+        <!-- Font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Preloader -->
+        <div id="preloader" class="fixed top-0 left-0 right-0 bottom-0 z-[999] bg-white dark:bg-dark flex items-center justify-center">
+            <div class="loader -mt-[50px] h-[80px] aspect-square p-[10px] rounded-full relative blur-[12px] before:absolute before:inset-[0]"></div>
+        </div>
+        <!-- End Preloader -->
+
+        <!-- Navbar -->
+        <div
+            class="bg-white dark:bg-dark py-[15px] md:py-[25px] lg:py-[5px] xl:py-[15px] sticky top-0 left-0 right-0 z-[4] transition-all duration-300 ease-in-out"
+            id="navbar"
+        >
+            <div class="container lg:!max-w-full 2xl:!max-w-[1704px]">
+                <div class="relative flex items-center flex-wrap lg:flex-nowrap justify-between lg:justify-start">
+                    <a href="index.html" class="flex-none inline-block">
+                        <img src="assets/images/NEWLOGO.png" class="dark:!hidden" alt="logo">
+                        <img src="assets/images/NEWLOGO.png" class="!hidden dark:!inline-block" alt="logo">
+                    </a>
+                    <div class="flex-none lg:hidden">
+                        <button type="button" class="inline-block leading-none" id="navbarBurgerToggle">
+                            <span class="h-[3px] w-[30px] my-[5px] block bg-dark dark:bg-white"></span>
+                            <span class="h-[3px] w-[30px] my-[5px] block bg-dark dark:bg-white"></span>
+                            <span class="h-[3px] w-[30px] my-[5px] block bg-dark dark:bg-white"></span>
+                        </button>
+                    </div>
+                    <div class="hidden lg:flex items-center grow basis-full basis-auto gap-[20px] xl:gap-[30px]">
+                        <ul class="navbar-nav flex items-center flex-row gap-[20px] xl:gap-[35px] ltr:ml-auto rtl:mr-auto">
+                            <li class="nav-item relative">
+                                <a href="javascript:void(0);" class="nav-link dropdown-toggle relative py-[20px] block text-dark dark:text-white transition-all duration-300 ease-in-out hover:text-primary">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu absolute top-full ltr:left-0 rtl:right-0 min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none py-[25px] transition-all duration-300 ease-in-out">
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="index.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Enterprise Cyber Defense
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="index-2.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            AI-Driven Cyber Protection
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="index-3.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Small Business Cyber Shield
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item relative">
+                                <a href="javascript:void(0);" class="nav-link active dropdown-toggle relative py-[20px] block text-dark dark:text-white transition-all duration-300 ease-in-out hover:text-primary">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu absolute top-full ltr:left-0 rtl:right-0 min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none py-[25px] transition-all duration-300 ease-in-out">
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="services.html" class="nav-link active relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Our Services
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="services-2.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Our Solutions
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="service-details.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Service Details
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item relative">
+                                <a href="javascript:void(0);" class="nav-link dropdown-toggle relative py-[20px] block text-dark dark:text-white transition-all duration-300 ease-in-out hover:text-primary">
+                                    Our Company
+                                </a>
+                                <ul class="dropdown-menu absolute top-full ltr:left-0 rtl:right-0 min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none py-[25px] transition-all duration-300 ease-in-out">
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="about.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="team.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Team
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="javascript:void(0);" class="nav-link dropdown-toggle relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Careers
+                                        </a>
+                                        <ul class="dropdown-menu absolute top-0 ltr:left-full rtl:right-full min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none py-[25px] transition-all duration-300 ease-in-out">
+                                            <li class="nav-item relative mb-[17px] last:mb-0">
+                                                <a href="careers.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                    Careers
+                                                </a>
+                                            </li>
+                                            <li class="nav-item relative mb-[17px] last:mb-0">
+                                                <a href="career-details.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                    Career Details
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="pricing.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Pricing
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="testimonials.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Testimonials
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="how-it-works.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            How It Works
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="faq.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            FAQ
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="javascript:void(0);" class="nav-link dropdown-toggle relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            My Account
+                                        </a>
+                                        <ul class="dropdown-menu absolute top-0 ltr:left-full rtl:right-full min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none py-[25px] transition-all duration-300 ease-in-out">
+                                            <li class="nav-item relative mb-[17px] last:mb-0">
+                                                <a href="login.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                    Login
+                                                </a>
+                                            </li>
+                                            <li class="nav-item relative mb-[17px] last:mb-0">
+                                                <a href="register.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                    Register
+                                                </a>
+                                            </li>
+                                            <li class="nav-item relative mb-[17px] last:mb-0">
+                                                <a href="forgot-password.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                    Forgot Password
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="terms-of-service.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Terms Of Service
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="privacy-policy.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Privacy Policy
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="refund-policy.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Refund Policy
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="cookie-preferences.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Cookie Preferences
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="error.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            404 Error Page
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="javascript:void(0);" class="nav-link dropdown-toggle relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Example Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu absolute top-0 ltr:left-full rtl:right-full min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none py-[25px] transition-all duration-300 ease-in-out">
+                                            <li class="nav-item relative mb-[17px] last:mb-0">
+                                                <a href="javascript:void(0);" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                    Dropdown Item 1
+                                                </a>
+                                            </li>
+                                            <li class="nav-item relative mb-[17px] last:mb-0">
+                                                <a href="javascript:void(0);" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                    Dropdown Item 2
+                                                </a>
+                                            </li>
+                                            <li class="nav-item relative mb-[17px] last:mb-0">
+                                                <a href="javascript:void(0);" class="nav-link dropdown-toggle relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                    Dropdown Item 3
+                                                </a>
+                                                <ul class="dropdown-menu absolute top-0 ltr:-left-full rtl:-right-full min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none rounded-[4px] py-[25px] transition-all duration-300 ease-in-out">
+                                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                                        <a href="javascript:void(0);" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                            Item 1
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                                        <a href="javascript:void(0);" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                            Item 2
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                                        <a href="javascript:void(0);" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                                            Item 3
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item relative">
+                                <a href="javascript:void(0);" class="nav-link dropdown-toggle relative py-[20px] block text-dark dark:text-white transition-all duration-300 ease-in-out hover:text-primary">
+                                    Case Studies
+                                </a>
+                                <ul class="dropdown-menu absolute top-full ltr:left-0 rtl:right-0 min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none py-[25px] transition-all duration-300 ease-in-out">
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="industries.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Industries
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="case-studies.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Case Studies
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="case-study-details.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Case Study Details
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item relative">
+                                <a href="javascript:void(0);" class="nav-link dropdown-toggle relative py-[20px] block text-dark dark:text-white transition-all duration-300 ease-in-out hover:text-primary">
+                                    Insights
+                                </a>
+                                <ul class="dropdown-menu absolute top-full ltr:left-0 rtl:right-0 min-w-[280px] xl:min-w-[300px] bg-white dark:bg-[#11141c] shadow-[0_8px_24px_rgba(149,157,165,0.2)] dark:shadow-none py-[25px] transition-all duration-300 ease-in-out">
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="insights.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Insights Grid
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="insights-2.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Insights Standard
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="insights-3.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Insights Right Sidebar
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="insights-4.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Insights Left Sidebar
+                                        </a>
+                                    </li>
+                                    <li class="nav-item relative mb-[17px] last:mb-0">
+                                        <a href="insight-details.html" class="nav-link relative text-dark dark:text-white px-[25px] block transition-all duration-300 ease-in-out hover:text-primary">
+                                            Insight Details
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item relative">
+                                <a href="contact.html" class="nav-link relative py-[20px] block text-dark dark:text-white transition-all duration-300 ease-in-out hover:text-primary">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="relative flex items-center gap-[24px] xl:gap-[35px]">
+                            <div class="relative">
+                                <button
+                                    type="button"
+                                    id="searchBtn"
+                                    class="inline-block text-[22px] xl:text-xl relative top-[2.5px] leading-none text-dark dark:text-white transition-all duration-300 ease-in-out hover:text-primary"
+                                >
+                                    <i class="flaticon-search"></i>
+                                </button>
+                                <div
+                                    id="searchBox"
+                                    style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;"
+                                    class="absolute mt-[20px] top-full ltr:right-0 rtl:left-0 w-[420px] bg-white dark:bg-[#11141c] p-[30px] rounded-[4px] invisible opacity-0 transition-all duration-300 ease-in-out dark:!shadow-none"
+                                >
+                                    <form action="#" class="relative">
+                                        <input type="text" class="form-input md:!px-[20px]" placeholder="Search for anything">
+                                        <button class="absolute top-1/2 -translate-y-1/2 ltr:right-[20px] rtl:left-[20px] text-xl leading-none transition-all duration-300 ease-in-out hover:text-primary" type="submit">
+                                            <i class="flaticon-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <a href="pricing.html" class="btn-primary">
+                                <span class="ltr:lg:!pr-0 rtl:lg:!pl-0 ltr:xl:!pr-[35px] rtl:xl:!pl-[35px]">
+                                    Start Assessment <i class="flaticon-chevron lg:hidden xl:inline-block"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar -->
+        
+        <!-- Responsive Menu -->
+        <div class="responsive-menu">
+            <div class="p-[20px] md:p-[30px] lg:px-[40px] py-[30px] flex items-center justify-between border-b border-[#ebebeb] dark:border-[#232323]">
+                <a href="index.html" class="flex-none inline-block">
+                    <img src="assets/images/NEWLOGO.png" class="dark:!hidden" alt="logo">
+                    <img src="assets/images/NEWLOGO.png" class="!hidden dark:!inline-block" alt="logo">
+                </a>
+                <button
+                    type="button"
+                    class="inline-block text-[22px] xl:text-xl relative top-[2.5px] leading-none text-dark dark:text-white transition-all duration-300 ease-in-out hover:text-primary"
+                >
+                    <i class="flaticon-close"></i>
+                </button>
+            </div>
+            <div class="overflow-y-scroll h-screen scrollbar" id="responsiveMenuAccordion" data-lenis-prevent>
+                <div class="accordion p-[20px] md:p-[30px] lg:p-[40px]">
+                    <div class="accordion-item mb-[20px] last:mb-0">
+                        <button class="accordion-toggle block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                            Home
+                            <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                        </button>
+                        <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                            <ul class="px-[20px]">
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="index.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Enterprise Cyber Defense
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="index-2.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        AI-Driven Cyber Protection
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="index-3.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Small Business Cyber Shield
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-[20px] last:mb-0">
+                        <button class="accordion-toggle active show block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                            Services
+                            <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                        </button>
+                        <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                            <ul class="px-[20px]">
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="services.html" class="active lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Our Services
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="services-2.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Our Solutions
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="service-details.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Service Details
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-[20px] last:mb-0">
+                        <button class="accordion-toggle block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                            Our Company
+                            <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                        </button>
+                        <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                            <ul class="px-[20px]">
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="about.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="team.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Team
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <div class="accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-toggle lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                Careers
+                                                <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                                            </button>
+                                            <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                                                <ul class="px-[20px]">
+                                                    <li class="mb-[15px] last:mb-0">
+                                                        <a href="careers.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                            Careers
+                                                        </a>
+                                                    </li>
+                                                    <li class="mb-[15px] last:mb-0">
+                                                        <a href="career-details.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                            Career Details
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="pricing.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="testimonials.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Testimonials
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="how-it-works.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        How It Works
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="faq.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <div class="accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-toggle lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                My Account
+                                                <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                                            </button>
+                                            <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                                                <ul class="px-[20px]">
+                                                    <li class="mb-[15px] last:mb-0">
+                                                        <a href="login.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                            Login
+                                                        </a>
+                                                    </li>
+                                                    <li class="mb-[15px] last:mb-0">
+                                                        <a href="register.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                            Register
+                                                        </a>
+                                                    </li>
+                                                    <li class="mb-[15px] last:mb-0">
+                                                        <a href="forgot-password.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                            Forgot Password
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="terms-of-service.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Terms Of Service
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="privacy-policy.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="refund-policy.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Refund Policy
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="cookie-preferences.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Cookie Preferences
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="error.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        404 Error Page
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <div class="accordion">
+                                        <div class="accordion-item">
+                                            <button class="accordion-toggle lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                Example Dropdown
+                                                <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                                            </button>
+                                            <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                                                <ul class="px-[20px]">
+                                                    <li class="mb-[15px] last:mb-0">
+                                                        <a href="javascript:void(0);" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                            Dropdown Item 1
+                                                        </a>
+                                                    </li>
+                                                    <li class="mb-[15px] last:mb-0">
+                                                        <a href="javascript:void(0);" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                            Dropdown Item 2
+                                                        </a>
+                                                    </li>
+                                                    <li class="mb-[15px] last:mb-0">
+                                                        <div class="accordion">
+                                                            <div class="accordion-item">
+                                                                <button class="accordion-toggle lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                                    Dropdown Item 3
+                                                                    <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                                                                </button>
+                                                                <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                                                                    <ul class="px-[20px]">
+                                                                        <li class="mb-[15px] last:mb-0">
+                                                                            <a href="javascript:void(0);" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                                                Item 1
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="mb-[15px] last:mb-0">
+                                                                            <a href="javascript:void(0);" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                                                Item 2
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="mb-[15px] last:mb-0">
+                                                                            <a href="javascript:void(0);" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                                                                Item 3
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-[20px] last:mb-0">
+                        <button class="accordion-toggle block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                            Case Studies
+                            <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                        </button>
+                        <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                            <ul class="px-[20px]">
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="industries.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Industries
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="case-studies.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Case Studies
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="case-study-details.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Case Study Details
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-[20px] last:mb-0">
+                        <button class="accordion-toggle block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                            Insights
+                            <i class="flaticon-down-arrow leading-none absolute top-1/2 -translate-y-1/2 ltr:right-0 rtl:left-0"></i>
+                        </button>
+                        <div class="accordion-panel hidden transition-all duration-300 ease-in-out mt-[15px] py-[10px] ltr:border-l rtl:border-r border-[#ebebeb] dark:border-[#232323]">
+                            <ul class="px-[20px]">
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="insights.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Insights Standard
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="insights-2.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Insights Grid
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="insights-3.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Insights Right Sidebar
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="insights-4.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Insights Left Sidebar
+                                    </a>
+                                </li>
+                                <li class="mb-[15px] last:mb-0">
+                                    <a href="insight-details.html" class="lg:text-15 block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                                        Insight Details
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-[20px] last:mb-0">
+                        <a href="contact.html" class="block w-full ltr:text-left rtl:text-right relative text-dark dark:text-white transition-all duration-300 ease-in-out ltr:pr-[25px] rtl:pl-[25px] hover:text-primary">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="p-[20px] md:p-[30px] lg:px-[40px] py-[30px] border-t border-[#ebebeb] dark:border-[#232323]">
+                <a href="contact.html" class="btn-primary">
+                    <span>
+                        Start Assessment <i class="flaticon-chevron"></i>
+                    </span>
+                </a>
+                <form action="#" class="relative mt-[20px] md:mt-[25px]">
+                    <input type="text" class="form-input md:!px-[20px]" placeholder="Search for anything">
+                    <button class="absolute top-1/2 -translate-y-1/2 ltr:right-[20px] rtl:left-[20px] text-xl leading-none transition-all duration-300 ease-in-out hover:text-primary" type="submit">
+                        <i class="flaticon-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="backdrop"></div>
+        <!-- End Responsive Menu -->
+
+        <!-- Page Banner -->
+        <div class="banner-section py-[60px] md:py-[80px] lg:py-[100px] xl:py-[120px] 2xl:py-[140px] bg-[#f5f5f5] dark:bg-dark-hard relative z-[1] overflow-hidden text-center">
+            <div class="container">
+                <h1 class="text-xl md:text-2xl mb-[12px] text_animation">
+                    Explore Our Security Solutions
+                </h1>
+                <ul class="md:text-15 flex items-center justify-center gap-[8px]">
+                    <li>
+                        <a href="index.html" class="inline-block transition-all duration-300 ease-in-out hover:text-primary">
+                            Home
+                        </a>
+                    </li>
+                    <li class="leading-none relative top-[2px] md:top-px">
+                        <i class="flaticon-chevron"></i>
+                    </li>
+                    <li>
+                        Our Services
+                    </li>
+                </ul>
+            </div>
+            <div class="shape-left absolute top-1/2 -translate-y-1/2 left-0 -z-[1] text-left hidden md:block">
+                <img src="assets/images/shapes/shape6.png" class="max-w-[50%] xl:max-w-[70%] 2xl:max-w-full" alt="shape1">
+            </div>
+            <div class="shape-right absolute top-1/2 -translate-y-1/2 right-0 -z-[1] text-right hidden md:block">
+                <img src="assets/images/shapes/shape7.png" class="max-w-[50%] xl:max-w-[70%] 2xl:max-w-full" alt="shape2">
+            </div>
+        </div>
+        <!-- End Page Banner -->
+
+        <!-- Partners -->
+        <div class="py-[60px] md:py-[80px] lg:py-[100px] xl:py-[120px] 2xl:py-[140px]">
+            <div class="container">
+                <h3 class="text-center text-base md:text-md lg:text-lg !font-medium mb-[30px] md:mb-[40px] lg:mb-[50px] xl:mb-[60px] text_animation">
+                    Trusted by Global Enterprises to Safeguard Critical Systems
+                </h3>
+                <div class="grid grid-cols-3 md:grid-cols-[auto_auto_auto_auto_auto] justify-center md:justify-between gap-[25px]">
+                    <div>
+                        <img src="assets/images/partners/partner1.svg" class="opacity-50 transition-all duration-300 ease-in-out hover:opacity-100 dark:invert" alt="partner-image">
+                    </div>
+                    <div>
+                        <img src="assets/images/partners/partner2.svg" class="opacity-50 transition-all duration-300 ease-in-out hover:opacity-100 dark:invert" alt="partner-image">
+                    </div>
+                    <div>
+                        <img src="assets/images/partners/partner3.svg" class="opacity-50 transition-all duration-300 ease-in-out hover:opacity-100 dark:invert" alt="partner-image">
+                    </div>
+                    <div>
+                        <img src="assets/images/partners/partner4.svg" class="opacity-50 transition-all duration-300 ease-in-out hover:opacity-100 dark:invert" alt="partner-image">
+                    </div>
+                    <div>
+                        <img src="assets/images/partners/partner5.svg" class="opacity-50 transition-all duration-300 ease-in-out hover:opacity-100 dark:invert" alt="partner-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Partners -->
+        
+        <!-- Solutions -->
+        <div class="py-[60px] md:py-[80px] lg:py-[100px] xl:py-[120px] 2xl:py-[140px] bg-[#f5f5f5] dark:bg-dark-hard">
+            <div class="container">
+                <div class="section-title text-center mx-auto">
+                    <span class="sub-title">
+                        Our Core Solutions
+                    </span>
+                    <h2 class="text_animation">
+                        Transformative Solutions For Modern Needs
+                    </h2>
+                </div>
+                <div class="mx-auto xl:max-w-[1076px] relative">
+                    <div class="bg-white dark:bg-dark p-[25px] md:p-[45px] lg:p-[65px] mb-[25px] md:mb-[40px] lg:mb-[80px] last:mb-0 sticky lg:top-[100px]">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[25px] items-center">
+                            <div class="text-center ltr:lg:-mr-[40px] rtl:lg:-ml-[40px]">
+                                <img src="assets/images/solutions/solution1.jpg" alt="solution-image">
+                            </div>
+                            <div class="ltr:lg:pl-[55px] rtl:lg:pr-[55px] ltr:xl:pl-[75px] rtl:xl:pr-[75px]">
+                                <div class="text-[50px] md:text-[60px] lg:text-[70px] mb-[15px] md:mb-[25px] xl:mb-[55px] leading-none">
+                                    <i class="flaticon-network-security bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent"></i>
+                                </div>
+                                <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] leading-[1.35]">
+                                    <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                        Managed Security Operations
+                                    </a>
+                                </h3>
+                                <p class="md:text-15">
+                                    Continuous monitoring, detection, and rapid response from our global Security Operations Centers.
+                                </p>
+                                <a href="service-details.html" class="btn-secondary mt-[10px] md:mt-[15px] lg:mt-[20px]">
+                                    <span>
+                                        Learn More <i class="flaticon-chevron"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-dark p-[25px] md:p-[45px] lg:p-[65px] mb-[25px] md:mb-[40px] lg:mb-[80px] last:mb-0 sticky lg:top-[100px]">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[25px] items-center">
+                            <div class="text-center ltr:lg:-mr-[40px] rtl:lg:-ml-[40px]">
+                                <img src="assets/images/solutions/solution2.jpg" alt="solution-image">
+                            </div>
+                            <div class="ltr:lg:pl-[55px] rtl:lg:pr-[55px] ltr:xl:pl-[75px] rtl:xl:pr-[75px]">
+                                <div class="text-[50px] md:text-[60px] lg:text-[70px] mb-[15px] md:mb-[25px] xl:mb-[55px] leading-none">
+                                    <i class="flaticon-adaptability bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent"></i>
+                                </div>
+                                <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] leading-[1.35]">
+                                    <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                        Threat Intelligence & Incident Response
+                                    </a>
+                                </h3>
+                                <p class="md:text-15">
+                                    Real-time threat analysis and rapid containment to stop attacks before they spread.
+                                </p>
+                                <a href="service-details.html" class="btn-secondary mt-[10px] md:mt-[15px] lg:mt-[20px]">
+                                    <span>
+                                        Learn More <i class="flaticon-chevron"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-dark p-[25px] md:p-[45px] lg:p-[65px] mb-[25px] md:mb-[40px] lg:mb-[80px] last:mb-0 sticky lg:top-[100px]">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[25px] items-center">
+                            <div class="text-center ltr:lg:-mr-[40px] rtl:lg:-ml-[40px]">
+                                <img src="assets/images/solutions/solution3.jpg" alt="solution-image">
+                            </div>
+                            <div class="ltr:lg:pl-[55px] rtl:lg:pr-[55px] ltr:xl:pl-[75px] rtl:xl:pr-[75px]">
+                                <div class="text-[50px] md:text-[60px] lg:text-[70px] mb-[15px] md:mb-[25px] xl:mb-[55px] leading-none">
+                                    <i class="flaticon-cloud bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent"></i>
+                                </div>
+                                <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] leading-[1.35]">
+                                    <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                        Cloud & Infrastructure Security
+                                    </a>
+                                </h3>
+                                <p class="md:text-15">
+                                    Secure your hybrid or multi-cloud environment across AWS, Azure, and GCP with best-practice configurations and compliance alignment.
+                                </p>
+                                <a href="service-details.html" class="btn-secondary mt-[10px] md:mt-[15px] lg:mt-[20px]">
+                                    <span>
+                                        Learn More <i class="flaticon-chevron"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-dark p-[25px] md:p-[45px] lg:p-[65px] mb-[25px] md:mb-[40px] lg:mb-[80px] last:mb-0 sticky lg:top-[100px]">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[25px] items-center">
+                            <div class="text-center ltr:lg:-mr-[40px] rtl:lg:-ml-[40px]">
+                                <img src="assets/images/solutions/solution4.jpg" alt="solution-image">
+                            </div>
+                            <div class="ltr:lg:pl-[55px] rtl:lg:pr-[55px] ltr:xl:pl-[75px] rtl:xl:pr-[75px]">
+                                <div class="text-[50px] md:text-[60px] lg:text-[70px] mb-[15px] md:mb-[25px] xl:mb-[55px] leading-none">
+                                    <i class="flaticon-security-audit bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent"></i>
+                                </div>
+                                <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] leading-[1.35]">
+                                    <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                        Vulnerability Assessment & Penetration Testing
+                                    </a>
+                                </h3>
+                                <p class="md:text-15">
+                                    Proactively identify weaknesses through in-depth red-team simulations and automated scans.
+                                </p>
+                                <a href="service-details.html" class="btn-secondary mt-[10px] md:mt-[15px] lg:mt-[20px]">
+                                    <span>
+                                        Learn More <i class="flaticon-chevron"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-dark p-[25px] md:p-[45px] lg:p-[65px] mb-[25px] md:mb-[40px] lg:mb-[80px] last:mb-0 sticky lg:top-[100px]">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-[25px] items-center">
+                            <div class="text-center ltr:lg:-mr-[40px] rtl:lg:-ml-[40px]">
+                                <img src="assets/images/solutions/solution5.jpg" alt="solution-image">
+                            </div>
+                            <div class="ltr:lg:pl-[55px] rtl:lg:pr-[55px] ltr:xl:pl-[75px] rtl:xl:pr-[75px]">
+                                <div class="text-[50px] md:text-[60px] lg:text-[70px] mb-[15px] md:mb-[25px] xl:mb-[55px] leading-none">
+                                    <i class="flaticon-risk bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent"></i>
+                                </div>
+                                <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] leading-[1.35]">
+                                    <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                        Compliance & Risk Management
+                                    </a>
+                                </h3>
+                                <p class="md:text-15">
+                                    Ensure your organization meets international standards—ISO 27001, GDPR, HIPAA, NIST, and more.
+                                </p>
+                                <a href="service-details.html" class="btn-secondary mt-[10px] md:mt-[15px] lg:mt-[20px]">
+                                    <span>
+                                        Learn More <i class="flaticon-chevron"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Solutions -->
+        
+                <!-- Testimonials -->
+        <div class="relative z-[1]">
+            <div class="container">
+                <div class="py-[60px] md:py-[80px] lg:py-[100px] xl:py-[120px] 2xl:py-[140px] xl:px-[100px] relative z-[1]">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-[25px] items-center mb-[30px] md:mb-[40px] lg:mb-[50px] xl:mb-[60px]">
+                        <div class="md:col-span-2 section-title !mb-0 ltr:md:-mr-[60px] rtl:md:-ml-[60px] ltr:lg:mr-0 rtl:lg:ml-0">
+                            <span class="sub-title">
+                                Testimonials
+                            </span>
+                            <h2 class="text_animation">
+                                Proven Success In Securing Enterprises
+                            </h2>
+                        </div>
+                        <div class="md:col-span-1 flex items-center justify-center md:justify-end">
+                            <div class="testimonials-button-prev swiper-button-prev">
+                                <i class="flaticon-left-chevron"></i>
+                            </div>
+                            <div class="testimonials-button-next swiper-button-next">
+                                <i class="flaticon-chevron"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper testimonialsSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="bg-white dark:bg-dark grid grid-cols-1 lg:grid-cols-2 gap-[20px] md:gap-[30px] lg:gap-[25px] items-center">
+                                    <div class="text-center relative ltr:xl:mr-[70px] rtl:xl:ml-[70px]">
+                                        <div class="md:max-w-[285px] hidden md:block">
+                                            <img src="assets/images/wave.jpg" class="rounded-full" alt="wave">
+                                        </div>
+                                        <div class="md:w-[285px] md:h-[285px] md:rounded-full md:bg-white dark:md:bg-dark flex items-center justify-center md:absolute md:top-1/2 md:-translate-y-1/2 ltr:md:right-[45px] rtl:md:left-[45px] ltr:lg:right-[5px] rtl:lg:left-[5px] ltr:xl:right-[45px] rtl:xl:left-[45px]">
+                                            <div>
+                                                <img src="assets/images/users/user1.jpg" class="rounded-full w-[100px]" alt="user-image">
+                                                <h3 class="text-sm md:text-base mb-[5px] mt-[15px]">
+                                                    Daniel Thompson
+                                                </h3>
+                                                <span class="block text-sm">
+                                                    Chief Information Security Officer
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ltr:xl:-ml-[70px] rtl:xl:-mr-[70px] text-center ltr:md:text-left rtl:md:text-right">
+                                        <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] !font-medium !font-body !leading-[1.4]">
+                                            “Fourth Dimension International transformed how we detect and respond to cyber threats.”
+                                        </h3>
+                                        <p class="text-md md:text-lg lg:text-[22px] !leading-[1.4]">
+                                            Their SOC team’s proactive monitoring prevented two major incidents before they could affect operations. We finally have complete visibility and confidence in our infrastructure.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="bg-white dark:bg-dark grid grid-cols-1 lg:grid-cols-2 gap-[20px] md:gap-[30px] lg:gap-[25px] items-center">
+                                    <div class="text-center relative ltr:xl:mr-[70px] rtl:xl:ml-[70px]">
+                                        <div class="md:max-w-[285px] hidden md:block">
+                                            <img src="assets/images/wave.jpg" class="rounded-full" alt="wave">
+                                        </div>
+                                        <div class="md:w-[285px] md:h-[285px] md:rounded-full md:bg-white dark:md:bg-dark flex items-center justify-center md:absolute md:top-1/2 md:-translate-y-1/2 ltr:md:right-[45px] rtl:md:left-[45px] ltr:lg:right-[5px] rtl:lg:left-[5px] ltr:xl:right-[45px] rtl:xl:left-[45px]">
+                                            <div>
+                                                <img src="assets/images/users/user2.jpg" class="rounded-full w-[100px]" alt="user-image">
+                                                <h3 class="text-sm md:text-base mb-[5px] mt-[15px]">
+                                                    Sarah Mitchell
+                                                </h3>
+                                                <span class="block text-sm">
+                                                    Chief Compliance Officer
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ltr:xl:-ml-[70px] rtl:xl:-mr-[70px] text-center ltr:md:text-left rtl:md:text-right">
+                                        <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] !font-medium !font-body !leading-[1.4]">
+                                            “Compliance made effortless with Fourth Dimension International’s automated reporting.”
+                                        </h3>
+                                        <p class="text-md md:text-lg lg:text-[22px] !leading-[1.4]">
+                                            Fourth Dimension International ensured we met GDPR, HIPAA, and SOC 2 requirements without disrupting daily operations.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Testimonials -->
+
+        
+        <!-- Schedule A Consultation -->
+        <div class="relative z-[1]">
+            <div class="container">
+                <div class="px-[20px] md:px-[40px] lg:px-[60px] py-[60px] md:py-[80px] lg:py-[100px] xl:py-[120px] 2xl:py-[140px] relative z-[1] bg-linear-135 from-primary to-primary-hard">
+                    <div class="text-center mx-auto lg:max-w-[720px]">
+                        <h2 class="text-xl md:text-3xl lg:text-[40px] mb-[15px] md:mb-[20px] lg:mb-[25px] leading-[1.2] !text-white text_animation">
+                            Ready To Strengthen Your Security Posture?
+                        </h2>
+                        <p class="md:text-15 text-white">
+                            Partner with Fourth Dimension International to safeguard your organization against today’s and tomorrow’s threats.
+                        </p>
+                        <a href="contact.html" class="btn-secondary before:!m-0 mt-[10px] md:mt-[20px] lg:mt-[30px]">
+                            <span>
+                                Schedule A Consultation <i class="flaticon-chevron"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="absolute top-0 left-0 -z-[1] text-left hidden lg:block">
+                        <img src="assets/images/shapes/shape3.png" class="max-w-[70%] xl:max-w-[90%] 2xl:max-w-full" alt="shape3">
+                    </div>
+                    <div class="absolute bottom-0 right-0 -z-[1] text-right hidden lg:block">
+                        <img src="assets/images/shapes/shape4.png" class="max-w-[70%] xl:max-w-[90%] 2xl:max-w-full" alt="shape4">
+                    </div>
+                </div>
+            </div>
+            <div class="absolute bottom-0 left-0 right-0 -z-[1] h-[50%] bg-[#f5f5f5] dark:bg-dark-hard"></div>
+        </div>
+        <!-- End Schedule A Consultation -->
+
+        <!-- Footer -->
+        <footer class="bg-[#f5f5f5] dark:bg-dark-hard pt-[60px] md:pt-[80px] lg:pt-[100px] xl:pt-[120px] 2xl:pt-[140px]">
+            <div class="container">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-[25px]">
+                    <div class="xl:max-w-[530px]">
+                        <h2 class="text-xl md:text-3xl lg:text-[40px] mb-[12px] md:mb-[15px] leading-[1.2] text_animation">
+                            Let’s Talk Security
+                        </h2>
+                        <p class="md:text-15">
+                            Discuss your enterprise’s security challenges with our experts. We’ll assess your infrastructure and provide a tailored defense strategy.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-base md:text-md lg:text-lg mb-[15px] !font-semibold">
+                            Stay Ahead of Every Threat
+                        </h3>
+                        <form action="#" class="relative">
+                            <input type="text" class="form-input !bg-white dark:!bg-dark" placeholder="Enter your email address">
+                            <button class="btn-primary md:!absolute md:top-1/2 md:-translate-y-1/2 ltr:md:right-[6px] rtl:md:left-[6px] mt-[15px] md:mt-0" type="submit">
+                                <span>
+                                    Subscribe now <i class="flaticon-chevron"></i>
+                                </span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="py-[30px] md:py-[80px] lg:py-[50px]"></div>
+                <div class="px-[20px] py-[25px] md:py-[35px] md:px-[30px] bg-white dark:bg-dark md:flex items-center justify-between text-center">
+                    <a href="index.html" class="inline-block">
+                        <img src="assets/images/NEWLOGO.png" class="dark:!hidden" alt="logo">
+                        <img src="assets/images/NEWLOGO.png" class="!hidden dark:!inline-block" alt="logo">
+                    </a>
+                    <div class="sm:flex items-center justify-center gap-[20px] lg:gap-[30px] mt-[15px] sm:mt-[20px] md:mt-0">
+                        <span class="block text-base md:text-md lg:text-lg text-dark dark:text-white font-heading font-medium">
+                            Follow Us
+                        </span>
+                        <div class="flex items-center gap-[10px] justify-center mt-[15px] sm:mt-0">
+                            <a href="#" class="w-[40px] h-[40px] md:w-[46px] md:h-[46px] rounded-[4px] bg-[#f5f5f5] dark:bg-dark-hard flex items-center justify-center text-md md:text-lg transition-all duration-300 ease-in-out hover:bg-dark">
+                                <i class="flaticon-facebook-app-symbol bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent leading-none relative top-px"></i>
+                            </a>
+                            <a href="#" class="w-[40px] h-[40px] md:w-[46px] md:h-[46px] rounded-[4px] bg-[#f5f5f5] dark:bg-dark-hard flex items-center justify-center text-md md:text-lg transition-all duration-300 ease-in-out hover:bg-dark">
+                                <i class="flaticon-linkedin bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent leading-none relative top-px"></i>
+                            </a>
+                            <a href="#" class="w-[40px] h-[40px] md:w-[46px] md:h-[46px] rounded-[4px] bg-[#f5f5f5] dark:bg-dark-hard flex items-center justify-center text-md md:text-lg transition-all duration-300 ease-in-out hover:bg-dark">
+                                <i class="flaticon-instagram bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent leading-none relative top-px"></i>
+                            </a>
+                            <a href="#" class="w-[40px] h-[40px] md:w-[46px] md:h-[46px] rounded-[4px] bg-[#f5f5f5] dark:bg-dark-hard flex items-center justify-center text-md md:text-lg transition-all duration-300 ease-in-out hover:bg-dark">
+                                <i class="flaticon-twitter-1 bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent leading-none relative top-px"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-[30px] md:py-[80px] lg:py-[50px]"></div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[25px]">
+                    <div>
+                        <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] !font-semibold">
+                            Company
+                        </h3>
+                        <ul class="md:text-15">
+                            <li class="mb-[10px]">
+                                <a href="about.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="careers.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Careers
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="team.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Leadership
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="testimonials.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Feedback
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="contact.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] !font-semibold">
+                            Solutions
+                        </h3>
+                        <ul class="md:text-15">
+                            <li class="mb-[10px]">
+                                <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Managed Security Operations
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Threat Intelligence & Incident Response
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Cloud & Infrastructure Security
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Vulnerability Assessment
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="service-details.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Compliance & Risk Management
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ltr:lg:pl-[50px] rtl:lg:pr-[50px]">
+                        <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] !font-semibold">
+                            Legal
+                        </h3>
+                        <ul class="md:text-15">
+                            <li class="mb-[10px]">
+                                <a href="terms-of-service.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Terms Of Service
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="privacy-policy.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="refund-policy.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Refund Policy
+                                </a>
+                            </li>
+                            <li class="mb-[10px]">
+                                <a href="cookie-preferences.html" class="transition-all duration-300 ease-in-out hover:text-primary">
+                                    Cookie Preferences
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-md md:text-lg lg:text-[22px] mb-[15px] !font-semibold">
+                            Contact Info
+                        </h3>
+                        <ul class="md:text-15">
+                            <li class="mb-[15px] md:mb-[18px]">
+                                <span class="mb-[3px] block text-dark dark:text-white">
+                                    Email:
+                                </span>
+                                <a href="mailto:hello@segura.com" class="relative bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent before:absolute before:left-0 before:right-0 before:bottom-0 before:h-px before:bg-linear-135 before:from-primary before:to-primary-hard">
+                                    hello@FDI.com
+                                </a>
+                            </li>
+                            <li class="mb-[15px] md:mb-[18px]">
+                                <span class="mb-[3px] block text-dark dark:text-white">
+                                    Phone:
+                                </span>
+                                <a href="tel:+1(800)445-7885" class="relative bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent before:absolute before:left-0 before:right-0 before:bottom-0 before:h-px before:bg-linear-135 before:from-primary before:to-primary-hard">
+                                    +1 (800) 445-7885
+                                </a>
+                            </li>
+                            <li class="mb-[15px] md:mb-[18px]">
+                                <span class="mb-[3px] block text-dark dark:text-white">
+                                    Address:
+                                </span>
+                                350 Fifth Avenue, 59th Floor — New York, NY 10118, USA
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="py-[30px] md:py-[80px] lg:py-[50px]"></div>
+                <div class="text-center border-t border-[#ebebeb] dark:border-[#232323] py-[20px] md:py-[30px] lg:py-[40px]">
+                    <p class="text-[#63667D] dark:text-gray md:text-15">
+                        <span class="bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent">©Fourth Dimension International.</span>. All rights reserved. Designed by <a href="https://envytheme.com/" class="bg-gradient-to-r from-primary to-primary-hard bg-clip-text text-transparent transition-all duration-300 ease-in-out hover:underline" target="_blank">Rikk</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        
+        <!-- Back To Top -->
+        <button
+            type="button"
+            id="backToTopBtn"
+        >
+            <i class="flaticon-up-arrow"></i>
+        </button>
+        <!-- End Back To Top -->
+
+        <!-- Light/Dark Mode -->
+        <button type="button" id="lightDarkToggle">
+            <i class="ri-sun-fill"></i>
+        </button>
+        <!-- End Light/Dark Mode -->
+
+        <!-- Ltr/Rtl Mode -->
+        <button type="button" id="ltrRtlToggle">
+            <i class="ri-translate"></i>
+        </button>
+        <!-- End Ltr/Rtl Mode -->
+
+        <!-- Links Of JS File -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/gsap.min.js"></script>
+        <script src="assets/js/ScrollTrigger.min.js"></script>
+        <script src="assets/js/SplitText.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/ukiyo.min.js"></script>
+        <script src="assets/js/lenis.js"></script>
+        <script src="assets/js/gsap-custom.js"></script>
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
